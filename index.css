@@ -390,3 +390,9 @@ footer h2{
 .l3,.l4{
     margin-top: 17px;
 }
+.certify2{
+    display: flex;
+  width: 30vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
