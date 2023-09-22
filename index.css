@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainheader{
+    background-color: rgb(34, 28, 28);
+    height: 60px;
+    justify-content: center;
+  align-items: center;
+  display: flex;
+}
+li{
+    list-style: none;
+}
+.xtwitter{
+    height: 24px;
+    width: auto;
+}
+.social ul{
+    display: flex;
+    justify-content: center;
+}
+.social ul li{
+    padding: 5px;
+}
+.leftcontainer{
+    /* width: 50%; */
+}
+.leftcontainer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftcontainer ul li{
+    /* margin: 5px; */
+}
+.leftcontainer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    line-height: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.nav_container{
+    position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.left1{
+    width: 50%;
+    height: 41px;
+}
+.logimg{
+    border-right: solid rgb(73, 72, 72);
+    padding:0px 5px;
+}
+.logo2img1{
+    height: 35px;
+    align-self: center;
+    margin-left: 0px;
+    
+}
+.logo2img2{
+    height: 20px;
+    align-self: center;
+}
+.nav_container{
+    display: flex;
+    
+}
+.rightcontainer{
+    width: 50%;
+    color: white;
+}
+.tollnum p{
+    color: white;
+}
+.logoarea ul {
+    display: flex;
+}
+#lbut{
+    background-color: rgb(200, 78, 34);
+    color: white;
+    background: linear-gradient(111.04deg, rgb(246, 121, 11) -0.63%, rgb(251, 83, 38) 107.47%), linear-gradient(rgb(18, 169, 230) -20%, rgb(5, 102, 141) 101.02%), rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 11px;
+    padding: 0px 19px 0px 11px;
+    font-size: 16px;
+}
+.searchbarmain{
+    display: flex;
+}
+#searchbar{
+    border: 1px solid rgb(246, 115, 15);
+    /* width: 100%; */
+  margin-bottom: 0px;
+  border: 0px;
+  outline: 0px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-style: italic;
+  border-radius: 6px;
+  display: flex;
+}
+.searchform{
+    width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.01) -38px 33px 20px, rgba(0, 0, 0, 0.05) -21px 19px 17px, rgba(0, 0, 0, 0.09) -10px 8px 13px, rgba(0, 0, 0, 0.1) -2px 2px 7px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
+  border-radius: 7px;
+}
+.search{
+    border: solid rgb(246,115,15);
+  width: Auto;
+  display: flex;
+  padding: 7px;
+  border-radius: 15px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.midnav{
+    display: flex;
+    justify-content: space-around;
+}
+.logoarea{
+    display: flex;
+}
+.logarea1{
+    height: 45px;
+    margin: 5px;
+    border-right: solid #e6e0e0 2px;
+}
+.logarea2{
+    height: 45px;
+    margin: 5px;
+    border-right: solid #e6e0e0 2px;
+}
+.logarea3{
+    height: 45px;
+    margin: 5px;
+    /* border-right: solid black 3px; */
+}
+.searchform{
+    border-radius: 50px;
+}
+.login{
+    border: solid rgb(227, 106, 13);
+    color: #e6e0e0;
+    background-color: rgb(227, 106, 13);
+    width: Auto;
+    display: flex;
+    padding: 7px;
+    border-radius:0 5px;
+    margin-left: 5px;
+}
+
+.bottumnav{
+    margin-top: 10px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbottum{
+    margin: 0 10vw;
+}
+.listsource ul {
+    display: flex;
+    justify-content: space-around;
+}
+.listsource ul li{
+    list-style: none;
+}
+.content{
+    width:100%;
+    margin-top: 10px;
+    background-image: url(./img/startupimg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+.introcontent{
+    text-align: center;
+}
+.introcontent h1{
+    margin: 10px;
+    font-size: 5vw;
+    /* display: inline; */
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to top right, #000000de, #9760e7);
+}
+.introcontent h3{
+    font-size: 3vw;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to top right, #e82424e5, #4a00b5);
+    margin-bottom: 20px;
+}
+.text {
+    /* font-size: 24px; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+    margin: 20px;
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+.desc{
+    text-align: center;
+  margin-top: 8px;
+}
+.onep{
+    color: #382020;
+    font-size: 22px;
+    margin: 5px;
+}
+.secp{
+    color: #e80933;
+    font-size: 22px;
+    margin: 5px;
+}
+.we{
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border: solid rgb(58, 135, 218) 4px;
+    border-style: inset;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}       
+.about{
+    margin: 10px;
+}
+.bottum{
+    display: flex;
+    justify-content: center;
+}
+.icon1 .fa {
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.9em;
+    width: 5.8645vw;
+    height: 4.30VW;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: inherit;
+    font-size: 27px;
+    border-width: 0.5vw;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    border-style: outset;
+    border-color: #3B5998;
+    color: #3B5998;
+}
+.fa-twitter {
+    border-color: #55ACEE;
+    border-style: outset;
+    color: #55ACEE;
+}
+
+.fa-linkedin {
+    border-color: #007bb5;
+    color: #007bb5;
+    border-style: outset;
+}
+
+
+/* .ref2 svg {
+    margin-left: auto;
+} */
+
+.fa-youtube {
+    border-color: #bb0000;
+    color: #bb0000;
+    border-style: outset;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(to bottom right, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border-color: #fb39dd;
+    border-style: outset;
+}
+
+.fa-envelope {
+    background-image: linear-gradient(to bottom right, rgb(219, 37, 37), rgb(227, 168, 237));
+    background-clip: text;
+    color: transparent;
+    border-color: rgb(219, 37, 37);
+    -webkit-background-clip: text;
+    border-style: outset;
+}
+
+.fa-github {
+    border-color: rgb(140, 88, 196);
+    border-style: outset;
+}
