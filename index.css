@@ -345,3 +345,15 @@ li{
     border-color: rgb(140, 88, 196);
     border-style: outset;
 }
+footer h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: transparent;
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-clip: text;
+}
+.sector1{
+    display: flex;
+    width: 160px;
+}
