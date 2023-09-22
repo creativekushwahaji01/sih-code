@@ -355,5 +355,38 @@ footer h2{
 }
 .sector1{
     display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.item2{
     width: 160px;
+    border: 2px solid #b9b9e3;
+    border-radius: 5px;
+    padding: 5px;
+}
+.description h2{
+    font-size: 15px;
+    font-weight: 400px;
+}
+.description p{
+    font-size: 15px;
+    font-style: oblique;
+    color: #55616b;
+}
+.dpiitlink{
+    text-decoration: none;
+    color: #e6e0e0;
+    text-align: center;
+    display: flex;
+}
+.linkdp{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(227, 106, 13);
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
+.l3,.l4{
+    margin-top: 17px;
 }
